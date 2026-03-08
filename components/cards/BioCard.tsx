@@ -15,8 +15,7 @@ export default function BioCard() {
       <div className="flex items-start gap-4">
         {/* Photo */}
         <div className="relative flex-shrink-0">
-          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl overflow-hidden ring-2"
-            style={{ ringColor: "var(--border)" }}>
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl overflow-hidden ring-2 ring-gray-200 dark:ring-gray-700">
             <div className="w-full h-full"
               style={{
                 backgroundImage: "url('/avatar.jpg')",
